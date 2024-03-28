@@ -53,8 +53,9 @@ public class LoginTest extends TestBase {
                 expires = response.path("expires");
 
 //        open("https://demoqa.com/profile");
-        open("/favicon.ico");
+
         //Put data to browser cookies
+                open("/favicon.ico");
         getWebDriver().manage().addCookie(new Cookie("userID", userId));
         getWebDriver().manage().addCookie(new Cookie("token", token));
         getWebDriver().manage().addCookie(new Cookie("expires", expires));
@@ -62,6 +63,43 @@ public class LoginTest extends TestBase {
         open("/profile");
         $("#userName-value").shouldHave(text("testUser123"));
 
+    }
+
+    @Test
+    void successfulLogoutTest() {
+        // Make Api request to get token, id ...
+        String body = "{\"userName\":\"test123456\",\"password\":\"Test123456@\"}"; // BAD PRACTICE
+
+        Response response = given()
+                .log().uri()
+                .log().method()
+                .log().body()
+                .contentType(JSON)
+                .body(body)
+                .when()
+                .post("/Account/v1/Login")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(200)
+                .extract().response();
+
+        String userId = response.path("userId"),
+                token = response.path("token"),
+                expires = response.path("expires");
+
+        // Put data to browser cookies
+        open("/favicon.ico");
+        getWebDriver().manage().addCookie(new Cookie("userID", userId));
+        getWebDriver().manage().addCookie(new Cookie("token", token));
+        getWebDriver().manage().addCookie(new Cookie("expires", expires));
+
+        open("/profile");
+        $("#userName-value").shouldHave(text("test123456"));
+        $(byText("Log out")).click();
+
+        $("#userForm").shouldBe(visible);
+        assertThat(url()).contains("/login");
     }
 
     @Test
