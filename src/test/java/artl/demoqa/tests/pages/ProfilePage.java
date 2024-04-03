@@ -19,6 +19,12 @@ public class ProfilePage {
 
 
 
+    @Step ("Login vith API")
+    public ProfilePage loginDemoQA() {
+
+        return this;
+    }
+
     @Step ("Open profile page")
     public ProfilePage openProfilePage() {
         open("/profile");
