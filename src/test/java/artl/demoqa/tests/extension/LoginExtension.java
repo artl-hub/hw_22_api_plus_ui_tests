@@ -18,15 +18,18 @@ public class LoginExtension implements BeforeEachCallback {
         String body = "{\"userName\": \"testUser123\", \"password\": \"4eDsM76F*9WY3Sn\"}";
         // BAD PRACTICE
 
-        Response response = given()
+        Response response =
+                        given()
                 .log().uri()
                 .log().method()
                 .log().body()
                 .contentType(JSON)
                 .body(body)
-                .when()
+
+                        .when()
                 .post("/Account/v1/Login")
-                .then()
+
+                        .then()
                 .log().status()
                 .log().body().statusCode(200)
                 .extract().response();

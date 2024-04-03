@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dbb6b6f-3a9a-4db3-90aa-243ba2a281f0" name="Changes" comment="" />
+    <list default="true" id="0dbb6b6f-3a9a-4db3-90aa-243ba2a281f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/helpers/Attach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginBodyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTestsWithLoginExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/extension/LoginExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/extension/LoginExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/BooksTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/BooksTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +30,29 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lesson_22_my_rest_api_iproving_ui_tests" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2e6MbQkoIdUKMZVnsCKKdGo6vVQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,9 +63,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo-User/IdeaProjects/qa_guru/lesson_22_my_rest_api_iproving_ui_tests/lesson_22_my_rest_api_iproving_ui_tests"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

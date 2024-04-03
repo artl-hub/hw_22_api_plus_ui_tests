@@ -1,4 +1,4 @@
-package artl.demoqa.tests;
+package artl.demoqa.tests.tests;
 
 //import artl.demoqa.tests.extensions.WithLogin;
 import artl.demoqa.tests.extension.WithLogin;
