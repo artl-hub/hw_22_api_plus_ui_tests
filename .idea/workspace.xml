@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dbb6b6f-3a9a-4db3-90aa-243ba2a281f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/specs/DemoqaSpecs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/config/DriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/extension/LoginExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/extension/LoginExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginBodyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginBodyModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginResponseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/BooksTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +29,36 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="lesson_22_my_rest_api_iproving_ui_tests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lesson_22_my_rest_api_iproving_ui_tests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lesson_22_my_rest_api_iproving_ui_tests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lesson_22_my_rest_api_iproving_ui_tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lesson_22_my_rest_api_iproving_ui_tests" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -61,7 +89,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.LoginModelTest.successfulLoginWithApiAndUiTest.executor": "Run",
+    "Gradle.ProfileTestsWithLoginExtension.executor": "Run",
     "Gradle.ProfileTestsWithLoginExtension.noRowsFoundTest.executor": "Run",
+    "Gradle.lesson_22_my_rest_api_iproving_ui_tests [allureServe].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -141,9 +171,32 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="lesson_22_my_rest_api_iproving_ui_tests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ProfileTestsWithLoginExtension" />
+        <item itemvalue="Gradle.lesson_22_my_rest_api_iproving_ui_tests [allureServe]" />
         <item itemvalue="Gradle.ProfileTestsWithLoginExtension.noRowsFoundTest" />
         <item itemvalue="Gradle.LoginModelTest.successfulLoginWithApiAndUiTest" />
       </list>
