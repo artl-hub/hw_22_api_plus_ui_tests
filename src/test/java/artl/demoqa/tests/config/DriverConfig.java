@@ -3,9 +3,6 @@ package artl.demoqa.tests.config;
 
 import org.aeonbits.owner.Config;
 
-//@Config.Sources({
-//        "classpath:config/${env}.properties"
-//})
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "classpath:${env}.properties",

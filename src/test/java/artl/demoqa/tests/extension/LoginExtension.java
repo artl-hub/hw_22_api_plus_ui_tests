@@ -2,7 +2,6 @@ package artl.demoqa.tests.extension;
 
 import artl.demoqa.tests.models.LoginBodyModel;
 import artl.demoqa.tests.models.LoginResponseModel;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.Cookie;

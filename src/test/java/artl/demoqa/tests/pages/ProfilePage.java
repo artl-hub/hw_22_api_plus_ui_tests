@@ -2,14 +2,10 @@ package artl.demoqa.tests.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import io.restassured.response.Response;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static io.restassured.RestAssured.given;
-import static io.restassured.http.ContentType.JSON;
-import static org.assertj.core.error.ShouldHave.shouldHave;
+
 
 public class ProfilePage {
 
