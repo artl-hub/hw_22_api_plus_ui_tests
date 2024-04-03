@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dbb6b6f-3a9a-4db3-90aa-243ba2a281f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginBodyModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTestsWithLoginExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/specs/DemoqaSpecs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/extension/LoginExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/extension/LoginExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/pages/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/BooksTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/BooksTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/ProfileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginBodyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginBodyModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/models/LoginResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/artl/demoqa/tests/tests/LoginModelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +39,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -61,12 +60,95 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.LoginModelTest.successfulLoginWithApiAndUiTest.executor": "Run",
+    "Gradle.ProfileTestsWithLoginExtension.noRowsFoundTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Lenovo-User/IdeaProjects/qa_guru/lesson_22_my_rest_api_iproving_ui_tests/lesson_22_my_rest_api_iproving_ui_tests"
   }
 }]]></component>
+  <component name="RunManager" selected="Gradle.ProfileTestsWithLoginExtension">
+    <configuration name="LoginModelTest.successfulLoginWithApiAndUiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;artl.demoqa.tests.tests.LoginModelTest.successfulLoginWithApiAndUiTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileTestsWithLoginExtension" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;artl.demoqa.tests.tests.ProfileTestsWithLoginExtension&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileTestsWithLoginExtension.noRowsFoundTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;artl.demoqa.tests.tests.ProfileTestsWithLoginExtension.noRowsFoundTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ProfileTestsWithLoginExtension" />
+        <item itemvalue="Gradle.ProfileTestsWithLoginExtension.noRowsFoundTest" />
+        <item itemvalue="Gradle.LoginModelTest.successfulLoginWithApiAndUiTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

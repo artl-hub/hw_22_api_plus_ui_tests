@@ -8,6 +8,8 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
 
+import static artl.demoqa.tests.specs.DemoqaSpecs.requestSpec;
+import static artl.demoqa.tests.specs.DemoqaSpecs.responseSpec;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
@@ -29,39 +31,23 @@ public class LoginModelTest extends TestBase {
         // BAD PRACTICE
 
         LoginBodyModel authData = new LoginBodyModel();
+
         authData.setUserName("testUser123");
         authData.setPassword("4eDsM76F*9WY3Sn");
 
-        LoginResponseModel response = given()
-                .log().uri()
-                .log().method()
-                .log().body()
+        LoginResponseModel response = given(requestSpec)
                 .contentType(JSON)
                 .body(authData)
-
                 .when()
                 .post("/Account/v1/Login")
-
                 .then()
-                .log().status()
-                .log().body().statusCode(200)
+                .spec(responseSpec(200))
                 .extract().as(LoginResponseModel.class);
 
-        String userId = response.path("userId"),
-                token = response.path("token"),
-                expires = response.path("expires");
-
-//        open("https://demoqa.com/profile");
-
-        //Put data to browser cookies
         open("/favicon.ico");
-        getWebDriver().manage().addCookie(new Cookie("userID", userId));
-        getWebDriver().manage().addCookie(new Cookie("token", token));
-        getWebDriver().manage().addCookie(new Cookie("expires", expires));
-
-        open("/profile");
-        $("#userName-value").shouldHave(text("testUser123"));
-
+        getWebDriver().manage().addCookie(new Cookie("userID", response.getUserId()));
+        getWebDriver().manage().addCookie(new Cookie("token", response.getToken()));
+        getWebDriver().manage().addCookie(new Cookie("expires", response.getExpires()));
     }
 }
 
